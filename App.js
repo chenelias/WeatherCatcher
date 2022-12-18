@@ -10,7 +10,7 @@ export default function App() {
     return (
         <PaperProvider>
             <Navbar />
-            <StatusBar style="auto" backgroundColor="#fff" />
+            <StatusBar style="auto" />
         </PaperProvider>
     )
 }
