@@ -11,7 +11,7 @@ const Navbar = () => {
             focusedIcon: 'weather-partly-snowy-rainy',
             unfocusedIcon: 'weather-partly-snowy-rainy',
         },
-        { key: 'search', title: 'Albums', focusedIcon: 'album' },
+        { key: 'search', title: 'Favorite', focusedIcon: 'star' },
     ])
 
     const renderScene = BottomNavigation.SceneMap({
